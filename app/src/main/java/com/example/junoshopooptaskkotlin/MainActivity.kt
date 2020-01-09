@@ -49,12 +49,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val log = listOf(
-            "Покупатель Дима попробовал Samsung Galaxy 10 в магазине DNS и получил чек номер 0",
-            "Покупатель Дима получил купон на скидку в магазине AliExpress и получил чек номер 1",
-            "Покупатель Дима купил Samsung Galaxy 10 в магазине AliExpress и получил чек номер 2"
-        )
-        act_mail_log.text = log.joinToString("\n")
     }
 }
 
